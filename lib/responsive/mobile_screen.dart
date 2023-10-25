@@ -57,13 +57,13 @@ class _MobileScreenLayoutState extends State<MobileScreenLayout> {
                         ),
                         borderRadius: BorderRadius.circular(15),
                         image: const DecorationImage(
-                          image: NetworkImage('assets/skill_set_mobile.png'),
+                          image: NetworkImage(skillpartmobile),
                         )),
                   ),
                 ),
               ),
             ],
-          ),
+          ), 
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(

@@ -1,86 +1,132 @@
-const int webwidth = 1190;
+const int webwidth = 1000;
+// const int tabwidth = 600;
+const int mobilewidth = 600; 
+ 
+// icons 
 
-const int mobilewidth = 700;
+const String linkicon = 'https://prapanch07.github.io/assets/link.png'; 
+const String computerset = 'https:/prapanch07.github.io/assets/computerset.png';
+const String githubicon = 'https://prapanch07.github.io/assets/github.png';
+const String githubonhovericon = 'https://prapanch07.github.io/assets/githubonhover.png';
+const String instagramicon = 'https://prapanch07.github.io/assets/instagram.png';
+const String instagramonhovericon = 'https://prapanch07.github.io/assets/instagramonhover.png';
+const String linkedinIcon = 'https://prapanch07.github.io/assets/linkedin.png';
+const String linkedinonhoverIcon = 'https://prapanch07.github.io/assets/linkedinonhover.png';
+const String mailicon = 'https://prapanch07.github.io/assets/mail.png';
+const String mailonhovericon = 'https://prapanch07.github.io/assets/mailonhover.png';
+const String twittericon = 'https://prapanch07.github.io/assets/twitter.png';
+const String twitteronhovericon = 'https://prapanch07.github.io/assets/twitteronhover.png';
+const String whatsapicon = 'https://prapanch07.github.io/assets/whtsapp.png';
+const String whatsaponhovericon = 'https://prapanch07.github.io/assets/whtsapponhover.png';
+ 
+const String profile = 'https://prapanch07.github.io/assets/profile.jpg';
+const String higif = 'https://prapanch07.github.io/assets/hi.gif';
+const String j = 'https://prapanch07.github.io/assets/J.png';
 
-// icons
+const String skillpartweb = 'https://prapanch07.github.io/assets/skill_set.png';
+const String skillparttab = 'https://prapanch07.github.io/assets/skill_set_tab.png';
+const String skillpartmobile = 'https://prapanch07.github.io/assets/skill_set_mobile.png';
 
-const String linkicon = 'assets/link.png';
 
 // frames
 
-const String phoneframe1 = 'assets/frames/phoneframe.png';
-const String phoneframe1onhover = 'assets/frames/phoneframeonhover.png';
+const String phoneframe1 =
+    'https://prapanch07.github.io/assets/frames/phoneframe.png';
+const String phoneframe1onhover =
+    'https://prapanch07.github.io/assets/frames/phoneframeonhover.png';
 
-const String phoneframe2 = 'assets/frames/phoneframe2.png';
-const String phoneframe2onhover = 'assets/frames/phoneframe2onhover.png';
+const String phoneframe2 =
+    'https://prapanch07.github.io/assets/frames/phoneframe2.png';
+const String phoneframe2onhover =
+    'https://prapanch07.github.io/assets/frames/phoneframe2onhover.png';
 
-const String phoneframe3 = 'assets/frames/phoneframe3.png';
-const String phoneframe3onhover = 'assets/frames/phoneframe3onhover.png';
+const String phoneframe3 =
+    'https://prapanch07.github.io/assets/frames/phoneframe3.png';
+const String phoneframe3onhover =
+    'https://prapanch07.github.io/assets/frames/phoneframe3onhover.png';
 
-const String phoneframe4 = 'assets/frames/phoneframe4.png';
-const String phoneframe4onhover = 'assets/frames/phoneframe4onhover.png';
+const String phoneframe4 =
+    'https://prapanch07.github.io/assets/frames/phoneframe4.png';
+const String phoneframe4onhover =
+    'https://prapanch07.github.io/assets/frames/phoneframe4onhover.png';
 
-const String phoneframe5 = 'assets/frames/phoneframe5.png';
-const String phoneframe5onhover = 'assets/frames/phoneframe5onhover.png';
-
-const String phoneframe6 = 'assets/frames/phoneframe6.png';
-const String phoneframe6onhover = 'assets/frames/phoneframe6onhover.png';
-
-const String phoneframe7 = 'assets/frames/phoneframe7.png';
-const String phoneframe7onhover = 'assets/frames/phoneframe7onhover.png';
-
-const String phoneframe8 = 'assets/frames/phoneframe8.png';
-const String phoneframe8onhover = 'assets/frames/phoneframe8onhover.png';
+const String phoneframe5 =
+    'https://prapanch07.github.io/assets/frames/phoneframe5.png';
+const String phoneframe5onhover =
+    'https://prapanch07.github.io/assets/frames/phoneframe5onhover.png';
 
 // more photos
 
 // instagram clone
 
-const instaclone = 'assets/instagram_clone/instaclone.jpeg';
-const instacommentpost = 'assets/instagram_clone/instacommentpost.jpeg';
-const instahome = 'assets/instagram_clone/instahome.jpeg';
-const instapostview = 'assets/instagram_clone/instapostview.jpeg';
-const instastory = 'assets/instagram_clone/instastory.jpeg';
-const instastoryview = 'assets/instagram_clone/instastoryview.jpeg';
+const instaclone =
+    'https://prapanch07.github.io/assets/instagram_clone/instaclone.jpeg';
+const instacommentpost =
+    'https://prapanch07.github.io/assets/instagram_clone/instacommentpost.jpeg';
+const instahome =
+    'https://prapanch07.github.io/assets/instagram_clone/instahome.jpeg';
+const instapostview =
+    'https://prapanch07.github.io/assets/instagram_clone/instapostview.jpeg';
+const instastory =
+    'https://prapanch07.github.io/assets/instagram_clone/instastory.jpeg';
+const instastoryview =
+    'https://prapanch07.github.io/assets/instagram_clone/instastoryview.jpeg';
 
 // note app
 
-const noteapp = 'assets/noteapp/noteapp.jpeg';
-const noteappadd = 'assets/noteapp/noteapp_add.jpeg';
-const noteapplogin = 'assets/noteapp/noteapp_login.jpeg';
-const noteappsignup = 'assets/noteapp/noteapp_signup.jpeg';
+const noteapp = 'https://prapanch07.github.io/assets/noteapp/noteapp.jpeg';
+const noteappadd =
+    'https://prapanch07.github.io/assets/noteapp/noteapp_add.jpeg';
+const noteapplogin =
+    'https://prapanch07.github.io/assets/noteapp/noteapp_login.jpeg';
+const noteappsignup =
+    'https://prapanch07.github.io/assets/noteapp/noteapp_signup.jpeg';
 
 // sentimind
 
-const sentimind = 'assets/sentimind/sentimind.jpeg';
-const sentimindanalyse = 'assets/sentimind/sentimind_analyzing.jpeg';
-const sentimindemptyvalue = 'assets/sentimind/sentimind_emptyvalues.jpeg';
-const sentimindfront = 'assets/sentimind/sentimind_front.jpeg';
-const sentimindnegative = 'assets/sentimind/sentimind_negative.jpeg';
-const sentimindpositive = 'assets/sentimind/sentimind_positive.jpeg';
+const sentimind =
+    'https://prapanch07.github.io/assets/sentimind/sentimind.jpeg';
+const sentimindanalyse =
+    'https://prapanch07.github.io/assets/sentimind/sentimind_analyzing.jpeg';
+const sentimindemptyvalue =
+    'https://prapanch07.github.io/assets/sentimind/sentimind_emptyvalues.jpeg';
+const sentimindfront =
+    'https://prapanch07.github.io/assets/sentimind/sentimind_front.jpeg';
+const sentimindnegative =
+    'https://prapanch07.github.io/assets/sentimind/sentimind_negative.jpeg';
+const sentimindpositive =
+    'https://prapanch07.github.io/assets/sentimind/sentimind_positive.jpeg';
 
 // bmi
 
-const bmicalculator = 'assets/bmicalculator/bmicalculator.jpeg';
-const bmicalculatoradd = 'assets/bmicalculator/bmicalculator_add.jpeg';
-const bmicalculatorhome = 'assets/bmicalculator/bmicalculator_home.jpeg';
+const bmicalculator =
+    'https://prapanch07.github.io/assets/bmicalculator/bmicalculator.jpeg';
+const bmicalculatoradd =
+    'https://prapanch07.github.io/assets/bmicalculator/bmicalculator_add.jpeg';
+const bmicalculatorhome =
+    'https://prapanch07.github.io/assets/bmicalculator/bmicalculator_home.jpeg';
 const bmicalculatorlowweight =
-    'assets/bmicalculator/bmicalculator_lowweight.jpeg';
-const bmicalculatorobese = 'assets/bmicalculator/bmicalculator_obese.jpeg';
+    'https://prapanch07.github.io/assets/bmicalculator/bmicalculator_lowweight.jpeg';
+const bmicalculatorobese =
+    'https://prapanch07.github.io/assets/bmicalculator/bmicalculator_obese.jpeg';
 const bmicalculatoroverweight =
-    'assets/bmicalculator/bmicalculator_overweight.jpeg';
+    'https://prapanch07.github.io/assets/bmicalculator/bmicalculator_overweight.jpeg';
 
 // maniguru
 
-const maniguru = 'assets/maniguru/maniguru.jpeg';
-const maniguruaddcategory = 'assets/maniguru/maniguru_addcategory.jpeg';
-const maniguruaddtransaction = 'assets/maniguru/maniguru_addtransaction.jpeg';
-const maniguruexpense = 'assets/maniguru/maniguru_expense.jpeg';
-const maniguruincome = 'assets/maniguru/maniguru_income.jpeg';
+const maniguru = 'https://prapanch07.github.io/assets/maniguru/maniguru.jpeg';
+const maniguruaddcategory =
+    'https://prapanch07.github.io/assets/maniguru/maniguru_addcategory.jpeg';
+const maniguruaddtransaction =
+    'https://prapanch07.github.io/assets/maniguru/maniguru_addtransaction.jpeg';
+const maniguruexpense =
+    'https://prapanch07.github.io/assets/maniguru/maniguru_expense.jpeg';
+const maniguruincome =
+    'https://prapanch07.github.io/assets/maniguru/maniguru_income.jpeg';
 
 // github repos
 
-const links = [ 
+const links = [
   'https://github.com/prapanch07/Insta_Clone',
   'https://github.com/prapanch07/note_app',
   'https://github.com/prapanch07/sentimend',
@@ -103,3 +149,4 @@ const twitterurl = 'https://twitter.com/Prapanch007';
 
 const resumelink =
     'https://drive.google.com/file/d/1j94ALfKAPTeGAyCNDO1BLces6mv-7L7B/view';
+

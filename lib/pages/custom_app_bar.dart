@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/pages/contact_me.dart';
 import 'package:portfolio/utils/colors.dart';
+import 'package:portfolio/utils/constants.dart';
 import 'package:portfolio/widgets/custom_text_button.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
@@ -22,7 +23,7 @@ class CustomAppBar extends StatelessWidget {
             fit: BoxFit.cover,
             height: 50,
             color: violetcolor,
-            image: NetworkImage('assets/J.png'),
+            image: NetworkImage(j),
           ),
           Flexible(
             child: Container(),

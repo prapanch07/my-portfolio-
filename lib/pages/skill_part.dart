@@ -37,8 +37,8 @@ class SkillPartSection extends StatelessWidget {
         ),
         child: Image.network(
           screensize.width < webwidth && screensize.width > mobilewidth
-              ? 'assets/skill_set_tab.png'
-              : 'assets/skill_set.png',
+              ? skillparttab
+              : skillpartweb
         ),
       ),
     );

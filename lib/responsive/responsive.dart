@@ -12,14 +12,14 @@ class CustomResponsiveWidget extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         if (constraints.maxWidth > webwidth) {
-          return const WebScreenLayout();
-        } else if (constraints.maxWidth < webwidth &&
-            constraints.maxWidth > mobilewidth) {
+          return const WebScreenLayout(); 
+        } else if (constraints.maxWidth > mobilewidth) {
           return const TabletScreenView();
         } else {
           return const MobileScreenLayout();
-        } 
+        }
       },
     );
   }
 }
+ 

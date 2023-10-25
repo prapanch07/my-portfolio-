@@ -17,7 +17,7 @@ class firestore {
       ContactModel contact = ContactModel(
         name: name,
         email: email,
-        phone: phone,
+        phone: phone, 
         description: description,
         date: DateTime.now(),
       );

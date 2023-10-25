@@ -33,7 +33,7 @@ class _ScreenFirstSectionState extends State<ScreenFirstSection> {
                   Text(
                     'Hi,',
                     style: GoogleFonts.raleway(
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w500, 
                       fontSize: 28,
                     ),
                   ),
@@ -41,7 +41,7 @@ class _ScreenFirstSectionState extends State<ScreenFirstSection> {
                     fit: BoxFit.fill,
                     height: 38,
                     width: 38,
-                    image: NetworkImage('assets/hi.gif'),
+                    image: NetworkImage(higif),
                   )
                 ],
               ),
@@ -122,11 +122,11 @@ class _ScreenFirstSectionState extends State<ScreenFirstSection> {
           const CircleAvatar(
             radius: 110,
             backgroundImage: NetworkImage(
-              'assets/profile.jpg',
+              profile, 
             ),
-          ),
+          ), 
         ],
       ),
     );
-  }
+  } 
 }

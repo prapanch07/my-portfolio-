@@ -21,7 +21,7 @@ class WebScreenLayout extends StatefulWidget {
 
   @override
   State<WebScreenLayout> createState() => _WebScreenLayoutState();
-}
+} 
 
 class _WebScreenLayoutState extends State<WebScreenLayout> {
   bool ishovering = false;
@@ -34,7 +34,7 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
       body: ListView(
         children: [
           screensize.width < webwidth
-              ? const CustomTabAppBar()
+              ? const CustomTabAppBar() 
               : Padding(
                   padding: EdgeInsets.symmetric(
                     vertical: 30.0,
@@ -58,12 +58,12 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
 
           //\n test1
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10), 
             child: Image(
               height: screensize.width / 5,
               width: screensize.width / 2,
-              image: const NetworkImage('assets/computerset.png'),
-            ),
+              image: const NetworkImage(computerset),
+            ), 
           ),
           Stack(
             children: [
@@ -257,7 +257,7 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
                                 context: context,
                                 builder: (context) => const SimpleDialog(
                                   backgroundColor: Color.fromARGB(
-                                    0, 
+                                    0,
                                     0,
                                     183,
                                     255,
@@ -303,4 +303,3 @@ class _WebScreenLayoutState extends State<WebScreenLayout> {
     );
   }
 }
- 

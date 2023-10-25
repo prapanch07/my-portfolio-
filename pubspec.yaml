@@ -67,9 +67,63 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+#   assets:
+#     - 'assets/link.png'
+    
+#     - 'assets/frames/phoneframe.png'
+#     - 'assets/frames/phoneframe2.png' 
+#     - 'assets/frames/phoneframe3.png'
+#     - 'assets/frames/phoneframe4.png'
+#     - 'assets/frames/phoneframe5.png'
+#     - 'assets/frames/phoneframe6.png'
+#     - 'assets/frames/phoneframe7.png'
+#     - 'assets/frames/phoneframe8.png'
+ 
+#     - 'assets/frames/phoneframeonhover.png'
+#     - 'assets/frames/phoneframe2onhover.png'
+#     - 'assets/frames/phoneframe3onhover.png'
+#     - 'assets/frames/phoneframe4onhover.png'
+#     - 'assets/frames/phoneframe5onhover.png'
+#     - 'assets/frames/phoneframe6onhover.png'
+#     - 'assets/frames/phoneframe7onhover.png'
+#     - 'assets/frames/phoneframe8onhover.png'
+     
+# # instagram
+#     - 'assets/instagram_clone/instaclone.jpeg'
+#     - 'assets/instagram_clone/instacommentpost.jpeg'
+#     - 'assets/instagram_clone/instahome.jpeg'
+#     - 'assets/instagram_clone/instapostview.jpeg'
+#     - 'assets/instagram_clone/instastory.jpeg'
+#     - 'assets/instagram_clone/instastoryview.jpeg'
+
+# # noteapp
+#     - 'assets/noteapp/noteapp.jpeg'
+#     - 'assets/noteapp/noteapp_add.jpeg'
+#     - 'assets/noteapp/noteapp_login.jpeg'
+#     - 'assets/noteapp/noteapp_signup.jpeg'
+
+# # sentimind
+#     - 'assets/sentimind/sentimind.jpeg'
+#     - 'assets/sentimind/sentimind_analyzing.jpeg'
+#     - 'assets/sentimind/sentimind_emptyvalues.jpeg'
+#     - 'assets/sentimind/sentimind_front.jpeg'
+#     - 'assets/sentimind/sentimind_negative.jpeg'
+#     - 'assets/sentimind/sentimind_positive.jpeg'
+
+# # bmicalculator
+#     - 'assets/bmicalculator/bmicalculator.jpeg'
+#     - 'assets/bmicalculator/bmicalculator_add.jpeg'
+#     - 'assets/bmicalculator/bmicalculator_home.jpeg'
+#     - 'assets/bmicalculator/bmicalculator_lowweight.jpeg'
+#     - 'assets/bmicalculator/bmicalculator_obese.jpeg'
+#     - 'assets/bmicalculator/bmicalculator_overweight.jpeg'
+
+# # maniguru
+#     - 'assets/maniguru/maniguru.jpeg'
+#     - 'assets/maniguru/maniguru_addcategory.jpeg'
+#     - 'assets/maniguru/maniguru_addtransaction.jpeg'
+#     - 'assets/maniguru/maniguru_expense.jpeg'
+#     - 'assets/maniguru/maniguru_income.jpeg'
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

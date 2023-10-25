@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/pages/contact_me.dart';
 import 'package:portfolio/utils/colors.dart';
+import 'package:portfolio/utils/constants.dart';
 import 'package:portfolio/widgets/custom_text_button.dart';
 
 class CustomTabAppBar extends StatefulWidget {
@@ -37,7 +38,7 @@ class _CustomTabAppBarState extends State<CustomTabAppBar> {
                   fit: BoxFit.cover,
                   height: 40,
                   color: violetcolor,
-                  image: NetworkImage('assets/J.png'),
+                  image: NetworkImage(j),
                 ),
                 Flexible(
                   child: Container(),

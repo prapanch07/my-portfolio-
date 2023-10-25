@@ -26,7 +26,7 @@ class _ScreenFirstSectionState extends State<ScreenFirstSectionMobileView> {
         const CircleAvatar(
           radius: 60,
           backgroundImage: NetworkImage(
-            'assets/profile.jpg',
+            profile,  
           ),
         ),
         Row(
@@ -44,7 +44,7 @@ class _ScreenFirstSectionState extends State<ScreenFirstSectionMobileView> {
               fit: BoxFit.fill,
               height: 38,
               width: 38,
-              image: NetworkImage('assets/hi.gif'),
+              image: NetworkImage(higif),
             )
           ],
         ),
