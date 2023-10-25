@@ -1,16 +1,16 @@
 # portfolio
 
-"A new Flutter project."
+"My portfolio build using Flutter and debloyed using firebase hosting services."
 
-## Getting Started
+link : https://portfolio-20b17.web.app/
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## packages used
+  animated_text_kit: ^4.2.2
+  cloud_firestore: ^4.9.2
+  firebase_auth: ^4.10.0
+  firebase_core: ^2.16.0
+  google_fonts: ^6.1.0
+  page_view_dot_indicator: ^2.3.0
+  url_launcher: ^6.1.14
+  uuid: ^4.1.0  
+  
